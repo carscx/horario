@@ -1,0 +1,6 @@
+.item-horario {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin: 10px 0;
+}

@@ -1,12 +1,12 @@
-import { ThemeProvider, createTheme } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
-import Horario from "./components/Horario";
+import { ThemeProvider, createTheme } from '@mui/material/styles'
+import CssBaseline from '@mui/material/CssBaseline'
+import Horario from './components/Horario'
 
 const darkTheme = createTheme({
   palette: {
-    mode: "dark"
-  }
-});
+    mode: 'dark',
+  },
+})
 
 export default function App() {
   return (
@@ -14,5 +14,5 @@ export default function App() {
       <CssBaseline />
       <Horario />
     </ThemeProvider>
-  );
+  )
 }
